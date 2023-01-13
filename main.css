@@ -1,0 +1,350 @@
+body{
+  height: 150vh;
+}
+#particles-js{ 
+  position:absolute;
+  z-index:-1;
+  width: 100%;
+  height: 9200px;
+  background-color:#020E34;
+}
+
+#wrapper{
+  position: relative;
+  z-index: 1;
+  width:100%;
+  height: 5000px;
+}
+
+
+p{
+  font-family: 'Kiwi Maru', serif;
+}
+h1{
+  font-family: 'Kiwi Maru', serif;
+}
+.one{
+  padding-top: 30px;
+}
+.one1{
+  font-size: 2rem;
+}
+.one2{
+  padding-top: 200px;
+}
+.one3{
+  font-size: 2rem;
+  padding-top: 200px;
+  color: rgb(240, 240, 240);
+}
+.one4{
+  padding-top: 150px;
+  color: rgb(240, 240, 240);
+}
+.one4-1{
+  padding-top: 30px;
+  color: rgb(240, 240, 240);
+}
+.one4-2{
+  font-size: 2rem;
+  padding-top: 30px;
+  color: rgb(240, 240, 240);
+}
+
+.menu{
+    height: 100px;
+    background-color: rgb(255, 252, 249);
+}
+.main1{
+    height: 1100px;
+    background-color: rgb(255, 252, 249);
+}
+.main2{
+  height: 1800px;
+  background-color: rgb(255, 252, 249);
+}
+.main2-5{
+  background-color: rgb(255, 252, 249);
+  height: 800px;
+}
+.main3{
+  height: 3500px;
+  background-color: rgb(255, 252, 249);
+}
+.main4{
+  height: 900px;
+  background-color: rgb(255, 252, 249);
+}
+.main5{
+  opacity : 0;
+  transition: opacity 1s;
+  height: 900px;
+  background: linear-gradient(rgb(255, 252, 249),30%,#020E34);
+}
+.main6{
+  height: 4300px;
+  background-color: #020E34;
+}
+
+.fade1.view1{
+  opacity: 1;
+}
+
+.box2-5{
+  font-size: 6rem;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+}
+
+.box2-6{
+  padding-top: 40px ;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+}
+
+.box2-7{
+  padding-top: 280px ;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+}
+
+.pic1{
+  width: 450px;
+  text-align: center;
+  padding-top: 70px;
+}
+.pic2{
+  width: 500px;
+  padding-left: 3%;
+  padding-top: 80px;
+}
+.pic3{
+  width: 500px;
+  padding-left: 30%;
+  padding-top: 80px;
+}
+.pic4{
+  width: 300px;
+  padding-left: 3%;
+  padding-top: 80px;
+}
+.pic4-1{
+  width: 300px;
+  padding-top: 100px;
+}
+.pic4-2{
+  width: 400px;
+  padding-top: 100px;
+}
+.pic5{
+  width: 300px;
+  text-align: center;
+  padding-top: 60px;
+}
+.pic6{
+  width: 900px;
+  text-align: center;
+  padding-top: 100px;
+}
+.pic7{
+  width: 900px;
+  text-align: center;
+  padding-top: 120px;
+}
+.sample5{
+  width: 200px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* fadeUp */
+
+.fadeUp{
+  animation-name:fadeUpAnime;
+  animation-duration:1.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateY(30px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    }
+  }
+   
+  .fadeUpTrigger{
+      opacity: 0;
+  }
+
+.box3{
+  padding-top: 50px ;
+  height: 1100px;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+}
+
+.box4{
+  padding-top: 300px ;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 5s;
+}
+
+.box5{
+  width: 60%;
+  padding-top: 200px ;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+  float: left;
+}
+
+.box5-6{
+  height: 900px;
+}
+
+.box7{
+  width: 50%;
+  float: left;
+}
+.box8{
+  width: 50%;
+  padding-top: 150px ;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+  float: right;
+}
+.box7-8{
+  height: 900px;
+}
+
+.box9{
+    padding-top: 100px ;
+    text-align: center;
+    opacity : 0;
+    transition: opacity 3s;
+    height: 500px;
+}
+.box10{
+  padding-top: 50px ;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+}
+.box11{
+  padding-top: 50px ;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+}
+.box12{
+  padding-top: 50px ;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+}
+.box13{
+  padding-top: 50px ;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 4s;
+}
+.box14{
+  padding-top: 60px;
+  height: 700px;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 4s;
+}
+.box15{
+  padding-top: 60px;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 4s;
+}
+.box16{
+  padding-right: 40%;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 4s;
+}
+.box17{
+  padding-left: 40%;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 4s;
+}
+.box19{
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+  position: relative;
+  z-index: 1;
+}
+.box20{
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+  position: relative;
+  z-index: 1;
+}
+.box21{
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+  position: relative;
+  z-index: 1;
+}
+.box22{
+  padding-right: 40%;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+  position: relative;
+  z-index: 1;
+}
+.box23{
+  padding-left: 40%;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+  position: relative;
+  z-index: 1;
+}
+
+.box24{
+  height: 300px;
+  padding: 100px;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+  position: relative;
+  z-index: 1;
+}
+.box26{
+  padding-top: 300px;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
+  position: relative;
+  z-index: 1;
+}
+.box25{
+  padding-top: 600px;
+  text-align: center;
+  opacity : 0;
+  transition: opacity 5s;
+  position: relative;
+  z-index: 1;
+}
